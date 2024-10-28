@@ -7,7 +7,7 @@ lineup3x3 <- read.csv("D:/Luca/Documentos/Note_Williams/Baskteball Analytics/Kni
 lineup4x4 <- read.csv("D:/Luca/Documentos/Note_Williams/Baskteball Analytics/Knicks_Lineup4x4 DF.csv")
 lineup5x5 <- read.csv("D:/Luca/Documentos/Note_Williams/Baskteball Analytics/Knicks_Lineup5x5 DF.csv")
 
-#Remove the player and/or lineups with less tahn 10 games played
+#Remove the player and/or lineups with less than 10 games played
 remove <- function(x){
   x <- x %>%
     filter(GP >= 10)
