@@ -18,4 +18,4 @@ All the data used in this project was obtained from [NBA STATS](https://www.nba.
 
 ## Project Status
 
-This project is currently in progress, and new features or improvements are being added regularly
+This project is currently in progress, and new features or improvements are being added regularly.
